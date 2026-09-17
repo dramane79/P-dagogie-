@@ -1,0 +1,198 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon espace pédagogique</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f6f9;
+            color: #263238;
+        }
+
+        header {
+            background: #1e3a5f;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        nav {
+            background: #ffffff;
+            padding: 15px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+        nav a {
+            color: #1e3a5f;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        .hero {
+            background: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .hero h1 {
+            color: #1e3a5f;
+            font-size: 36px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: #546e7a;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        h2 {
+            color: #1e3a5f;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .courses {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            border: 1px solid #e0e0e0;
+            text-align: center;
+        }
+
+        .card h3 {
+            color: #1e3a5f;
+        }
+
+        .card p {
+            color: #546e7a;
+        }
+
+        .button {
+            display: inline-block;
+            background: #1e3a5f;
+            color: white;
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+
+        footer {
+            background: #1e3a5f;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Mon espace pédagogique</h1>
+        <p>Technologie · SNT · NSI</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="#cours">Mes cours</a>
+        <a href="#ressources">Ressources</a>
+    </nav>
+
+    <section class="hero">
+        <h1>Bienvenue sur mon site pédagogique</h1>
+        <p>
+            Retrouvez vos cours, activités et ressources
+            pour apprendre les sciences numériques et la technologie.
+        </p>
+    </section>
+
+    <main class="container" id="cours">
+        <h2>Mes cours par niveau</h2>
+
+        <div class="courses">
+
+            <div class="card">
+                <h3>5e</h3>
+                <p>Technologie</p>
+                <a class="button" href="#">Voir les cours</a>
+            </div>
+
+            <div class="card">
+                <h3>4e</h3>
+                <p>Technologie</p>
+                <a class="button" href="#">Voir les cours</a>
+            </div>
+
+            <div class="card">
+                <h3>3e</h3>
+                <p>Technologie</p>
+                <a class="button" href="#">Voir les cours</a>
+            </div>
+
+            <div class="card">
+                <h3>2nde</h3>
+                <p>Sciences numériques et technologie</p>
+                <a class="button" href="#">Voir les cours</a>
+            </div>
+
+            <div class="card">
+                <h3>1ère NSI</h3>
+                <p>Numérique et sciences informatiques</p>
+                <a class="button" href="#">Voir les cours</a>
+            </div>
+
+        </div>
+    </main>
+
+    <section class="container" id="ressources">
+        <h2>Ressources pédagogiques</h2>
+
+        <div class="courses">
+            <div class="card">
+                <h3>Programmation</h3>
+                <p>Scratch, Python et algorithmique.</p>
+            </div>
+
+            <div class="card">
+                <h3>Robotique</h3>
+                <p>Projets et activités technologiques.</p>
+            </div>
+
+            <div class="card">
+                <h3>Fiches de cours</h3>
+                <p>Documents et exercices pour les élèves.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 - Mon espace pédagogique</p>
+        <p>Technologie, SNT et NSI</p>
+    </footer>
+
+</body>
+</html>
